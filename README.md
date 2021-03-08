@@ -33,7 +33,7 @@ The live demo of the website can be seen [here](https://livedemo.com)
 - GitHub: [jmontanholi](https://github.com/jmontanholi)
 - Twitter: [MontanholiNunes](https://twitter.com/MontanholiNunes)
 - LinkedIn: [joaovitormontanholi](https://www.linkedin.com/in/joaovitormontanholi/)
-- 
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
