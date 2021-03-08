@@ -91,3 +91,13 @@ $font-h: 'Roboto', sans-serif;
 footer {
 	margin-top: 100px;
 }
+
+.footer-2 {
+	justify-content: center;
+}
+
+@media (min-width: 768px) {
+	.footer-2 {
+		justify-content: space-between;
+	}
+}
