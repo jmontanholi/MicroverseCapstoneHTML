@@ -101,6 +101,15 @@ $font-h: 'Roboto', sans-serif;
 	color: black;
 }
 
+.arrow-hover {
+	transition: all 0.5s;
+}
+
+.arrow-hover:hover {
+	color: $red;
+	cursor: pointer;
+}
+
 .plus-hover {
 	transition: all 1s;
 }
