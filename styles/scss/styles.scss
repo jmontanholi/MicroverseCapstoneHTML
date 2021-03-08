@@ -1,89 +1,89 @@
-$red: #D35266;
-$grey: #888888;
+$red: #d35266;
+$grey: #888;
 $black: #383838;
 $font-g: 'Montserrat', sans-serif;
 $font-h: 'Roboto', sans-serif;
 
-
 .font-1 {
-	font-family: $font-g;
+  font-family: $font-g;
 }
 
 .font-2 {
-	font-family: $font-h;
+  font-family: $font-h;
 }
 
 .bg-light-grey {
-	background-color: rgb(226, 226, 226);
+  background-color: rgb(226, 226, 226);
 }
 
 .bg-red {
-	background-color: $red;
+  background-color: $red;
 }
 
 .color-red {
-	color: $red;
+  color: $red;
 }
 
 .bg-grey {
-	background-color: $grey;
+  background-color: $grey;
 }
 
 .color-grey {
-	color: $grey;
+  color: $grey;
 }
 
-.bg-black{
-	background-color: black;
+.bg-black {
+  background-color: black;
 }
 
 .color-black {
-	color: black;
+  color: black;
 }
 
 .nav {
-	display: flex;
-	background-color: $black;
+  display: flex;
+  background-color: $black;
 }
 
 .nav-1 {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex: 1;
-	font-size: 13px;
-	h2 {
-		font-size: 13px;
-		margin-top: 5px;
-	}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  font-size: 13px;
+
+  h2 {
+    font-size: 13px;
+    margin-top: 5px;
+  }
 }
 
 .nav-2 {
-	display: flex;
-	justify-content: space-around;
-	flex: 3;
-	font-size: 12px;
-	margin-top: 5px;
+  display: flex;
+  justify-content: space-around;
+  flex: 3;
+  font-size: 12px;
+  margin-top: 5px;
 }
 
 .nav-3 {
-	display: flex;
-	align-items: center;
-	flex: 1;
+  display: flex;
+  align-items: center;
+  flex: 1;
 }
 
 .ad-sub {
-	font-size: 13px;
+  font-size: 13px;
 }
 
 .ad-p-1 {
-	font-size: 13px;
+  font-size: 13px;
 }
 
 .ad-p-2 {
-	font-size: 10px;
+  font-size: 10px;
 }
 
 .footer-title {
-	border-bottom: 1px solid $red;
+  border-bottom: 1px solid $red;
 }
