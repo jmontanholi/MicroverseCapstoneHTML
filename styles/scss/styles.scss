@@ -51,6 +51,7 @@ $font-h: 'Roboto', sans-serif;
   align-items: center;
   flex: 1;
   font-size: 13px;
+
   h1 {
     font-size: 13px;
     margin-top: 5px;
@@ -61,7 +62,7 @@ $font-h: 'Roboto', sans-serif;
   display: flex;
   justify-content: space-around;
   flex: 3;
-	font-size: 12px;
+  font-size: 12px;
   margin-top: 5px;
 }
 
@@ -72,52 +73,52 @@ $font-h: 'Roboto', sans-serif;
 }
 
 .link-hover {
-	transition: all 1s;
+  transition: all 1s;
 }
 
 .link-hover:hover {
-	color: $red;
+  color: $red;
 }
 
 .nav-btn-hover {
-	background-color: $red;
-	color: white;
-	transition: all 1s;
+  background-color: $red;
+  color: white;
+  transition: all 1s;
 }
 
 .nav-btn-hover:hover {
-	color: black;
-	background-color: #d1203b;
+  color: black;
+  background-color: #d1203b;
 }
 
 .form-btn-hover {
-	background-color: $black;
-	color: white;
-	transition: all 1s;
+  background-color: $black;
+  color: white;
+  transition: all 1s;
 }
 
 .form-btn-hover:hover {
-	background-color: white;
-	color: black;
+  background-color: white;
+  color: black;
 }
 
 .arrow-hover {
-	transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .arrow-hover:hover {
-	color: $red;
-	cursor: pointer;
+  color: $red;
+  cursor: pointer;
 }
 
 .plus-hover {
-	transition: all 1s;
+  transition: all 1s;
 }
 
 .plus-hover:hover {
-	color: black;
-	transform: scale(1.3);
-	cursor: pointer;
+  color: black;
+  transform: scale(1.3);
+  cursor: pointer;
 }
 
 .ad-sub {
@@ -137,30 +138,31 @@ $font-h: 'Roboto', sans-serif;
 }
 
 footer {
-	margin-top: 100px;
+  margin-top: 100px;
 }
 
 .footer-2 {
-	justify-content: center;
+  justify-content: center;
 }
 
 @media (min-width: 768px) {
-	.footer-2 {
-		justify-content: space-between;
-	}
+  .footer-2 {
+    justify-content: space-between;
+  }
 
-	.nav-1 {
-		font-size: 25px;
-		h1 {
-			font-size: 25px;
-		}
-	}
+  .nav-1 {
+    font-size: 25px;
 
-	.nav-2 {
-		font-size: 20px;
-	}
+    h1 {
+      font-size: 25px;
+    }
+  }
 
-	.nav-3 {
-		font-size: 20px;
-	}
+  .nav-2 {
+    font-size: 20px;
+  }
+
+  .nav-3 {
+    font-size: 20px;
+  }
 }
