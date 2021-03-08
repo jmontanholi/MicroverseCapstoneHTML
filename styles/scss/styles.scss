@@ -71,8 +71,23 @@ $font-h: 'Roboto', sans-serif;
   flex: 1;
 }
 
+.link-hover {
+	transition: all 1s;
+}
+
 .link-hover:hover {
 	color: $red;
+}
+
+.nav-btn-hover {
+	background-color: $red;
+	color: white;
+	transition: all 1s;
+}
+
+.nav-btn-hover:hover {
+	color: black;
+	background-color: #d1203b;
 }
 
 .form-btn-hover {
