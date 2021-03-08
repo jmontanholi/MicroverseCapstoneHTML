@@ -4,14 +4,42 @@ $black: #383838;
 $font-g: 'Montserrat', sans-serif;
 $font-h: 'Roboto', sans-serif;
 
-.bg-red{
+
+.font-1 {
+	font-family: $font-g;
+}
+
+.font-2 {
+	font-family: $font-h;
+}
+
+.bg-light-grey {
+	background-color: rgb(226, 226, 226);
+}
+
+.bg-red {
 	background-color: $red;
 }
 
-.color-red{
+.color-red {
 	color: $red;
 }
 
+.bg-grey {
+	background-color: $grey;
+}
+
+.color-grey {
+	color: $grey;
+}
+
+.bg-black{
+	background-color: black;
+}
+
+.color-black {
+	color: black;
+}
 
 .nav {
 	display: flex;
@@ -23,10 +51,34 @@ $font-h: 'Roboto', sans-serif;
 	justify-content: center;
 	align-items: center;
 	flex: 1;
+	font-size: 13px;
+	h2 {
+		font-size: 13px;
+		margin-top: 5px;
+	}
 }
 
 .nav-2 {
+	display: flex;
+	justify-content: space-around;
 	flex: 3;
-	justify-content: space-evenly;
+	font-size: 14px;
+}
+
+.nav-3 {
+	display: flex;
 	align-items: center;
+	flex: 1;
+}
+
+.ad-sub {
+	font-size: 13px;
+}
+
+.ad-p-1 {
+	font-size: 13px;
+}
+
+.ad-p-2 {
+	font-size: 10px;
 }
