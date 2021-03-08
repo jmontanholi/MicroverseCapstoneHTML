@@ -62,7 +62,6 @@ $font-h: 'Roboto', sans-serif;
   display: flex;
   justify-content: space-around;
   flex: 3;
-  font-size: 12px;
   margin-top: 5px;
 }
 
@@ -99,5 +98,20 @@ footer {
 @media (min-width: 768px) {
 	.footer-2 {
 		justify-content: space-between;
+	}
+
+	.nav-1 {
+		font-size: 25px;
+		h2 {
+			font-size: 25px;
+		}
+	}
+
+	.nav-2 {
+		font-size: 20px;
+	}
+
+	.nav-3 {
+		font-size: 20px;
 	}
 }
