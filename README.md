@@ -16,7 +16,7 @@
 
 ## Live Demo
 
-The live demo of the website can be seen [here](https://livedemo.com)
+The live demo of the website can be seen [here](https://jmontanholi.github.io/MicroverseCapstoneHTML/)
 
 
 * ## Getting Started
