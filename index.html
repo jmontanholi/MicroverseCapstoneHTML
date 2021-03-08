@@ -42,9 +42,22 @@
             </div>
         </nav>
         <!-- Ipad/Desktop searchbar -->
-        <div class="bg-danger d-none d-md-grid">
-            <h1 class="text-light">FICTIONAL</h1>
-            <p>Buying And Selling Couldn't Be Simpler Than This</p>
+        <div class="bg-red d-none d-md-flex flex-column align-items-center">
+            <div class="text-center pt-5">
+                <h1 class="text-light fw-bold">FICTIONAL</h1>
+                <p class="text-light">Buying And Selling Couldn't Be Simpler Than This</p>
+            </div>
+            <div>
+                <form action="#" class="d-flex py-5">
+                    <select class="form-select rounded-0" name="departments" id="departments">
+                        <option value="games">Games</option>
+                        <option value="consoles">Consoles</option>
+                        <option value="acessories">Acessories</option>
+                    </select>
+                    <input class="form-control rounded-0" type="text" placeholder="What do you search for?" size="45">
+                    <input class="ms-3 bg-black text-light border-0 rounded-1 px-3" type="submit" value="SEARCH">
+                </form>
+            </div>
         </div>
     </header>
     <main class="bg-light-grey">
