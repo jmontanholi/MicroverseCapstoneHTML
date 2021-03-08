@@ -151,6 +151,16 @@ footer {
   justify-content: center;
 }
 
+.results-img {
+  background: url(../../Assets/imgs/amongus.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 400px;
+  max-height: 100%;
+  max-width: 100%;
+}
+
 @media (min-width: 768px) {
   .footer-2 {
     justify-content: space-between;
@@ -181,14 +191,18 @@ footer {
   }
 
   .search-img {
-    width: 250px;
-    height: 20%;
+    width: 200px;
     flex: 1;
   }
 
   .search-txt-div {
     flex: 3;
     font-size: 10px;
+  }
+
+  .results-img {
+    height: 200px;
+    width: 250px;
   }
 }
 
