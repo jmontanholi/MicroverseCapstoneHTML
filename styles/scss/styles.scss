@@ -3,3 +3,30 @@ $grey: #888888;
 $black: #383838;
 $font-g: 'Montserrat', sans-serif;
 $font-h: 'Roboto', sans-serif;
+
+.bg-red{
+	background-color: $red;
+}
+
+.color-red{
+	color: $red;
+}
+
+
+.nav {
+	display: flex;
+	background-color: $black;
+}
+
+.nav-1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+}
+
+.nav-2 {
+	flex: 3;
+	justify-content: space-evenly;
+	align-items: center;
+}
