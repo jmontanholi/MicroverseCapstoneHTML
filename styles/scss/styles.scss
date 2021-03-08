@@ -52,7 +52,7 @@ $font-h: 'Roboto', sans-serif;
   flex: 1;
   font-size: 13px;
 
-  h1 {
+  h2 {
     font-size: 13px;
     margin-top: 5px;
   }
@@ -122,9 +122,9 @@ $font-h: 'Roboto', sans-serif;
 }
 
 .check-border {
-	border-bottom: 1px solid $black;
-	margin: 5px;
-	padding-bottom: 5px;
+  border-bottom: 1px solid $black;
+  margin: 5px;
+  padding-bottom: 5px;
 }
 
 .ad-sub {
@@ -159,7 +159,7 @@ footer {
   .nav-1 {
     font-size: 25px;
 
-    h1 {
+    h2 {
       font-size: 25px;
     }
   }
@@ -172,47 +172,46 @@ footer {
     font-size: 20px;
   }
 
-	.search-div {
-		padding-left: 80px;
-	}
+  .search-div {
+    padding-left: 80px;
+  }
 
-	.flex {
-		display: flex;
-	}
+  .flex {
+    display: flex;
+  }
 
-	.search-img {
-		width: 250px;
-		height: 20%;
-		flex: 1;
-	}
-	
-	.search-txt-div {
-		flex: 3;
-		font-size: 10px;
-	}
-	
+  .search-img {
+    width: 250px;
+    height: 20%;
+    flex: 1;
+  }
+
+  .search-txt-div {
+    flex: 3;
+    font-size: 10px;
+  }
 }
 
 @media (min-width: 1024px) {
-	.search-div {
-		padding-left: 220px;
-	}
+  .search-div {
+    padding-left: 220px;
+  }
 
-	.search-img {
-		width: 320px;
-		height: 100%;
-		flex: 1;
-	}
+  .search-img {
+    width: 320px;
+    height: 100%;
+    flex: 1;
+  }
 }
 
 @media (min-width: 1440px) {
-	.search-div {
-		padding-left: 420px;
-	}
+  .search-div {
+    padding-left: 420px;
+  }
 }
 
 @media (min-width: 1600px) {
-	.search-div {
-		padding-left: 640px;
-	}
+  .search-div {
+    padding-left: 640px;
+  }
 }
