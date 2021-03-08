@@ -4,7 +4,7 @@
 
 > This Project is a simulation of a real job project based on a website for selling products.
 
-![screenshot](./app_screenshot.png)
+![screenshot](Assets/imgs/print.png)
 
 ## Built With
 
