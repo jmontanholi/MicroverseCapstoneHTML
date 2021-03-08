@@ -121,6 +121,12 @@ $font-h: 'Roboto', sans-serif;
   cursor: pointer;
 }
 
+.check-border {
+	border-bottom: 1px solid $black;
+	margin: 5px;
+	padding-bottom: 5px;
+}
+
 .ad-sub {
   font-size: 13px;
 }
