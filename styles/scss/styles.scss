@@ -51,7 +51,7 @@ $font-h: 'Roboto', sans-serif;
   align-items: center;
   flex: 1;
   font-size: 13px;
-  h2 {
+  h1 {
     font-size: 13px;
     margin-top: 5px;
   }
@@ -101,6 +101,16 @@ $font-h: 'Roboto', sans-serif;
 	color: black;
 }
 
+.plus-hover {
+	transition: all 1s;
+}
+
+.plus-hover:hover {
+	color: black;
+	transform: scale(1.3);
+	cursor: pointer;
+}
+
 .ad-sub {
   font-size: 13px;
 }
@@ -132,7 +142,7 @@ footer {
 
 	.nav-1 {
 		font-size: 25px;
-		h2 {
+		h1 {
 			font-size: 25px;
 		}
 	}
