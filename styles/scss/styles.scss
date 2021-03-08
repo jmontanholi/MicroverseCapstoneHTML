@@ -165,4 +165,26 @@ footer {
   .nav-3 {
     font-size: 20px;
   }
+
+	.search-div {
+		padding-left: 80px;
+	}
+}
+
+@media (min-width: 1024px) {
+	.search-div {
+		padding-left: 220px;
+	}
+}
+
+@media (min-width: 1440px) {
+	.search-div {
+		padding-left: 420px;
+	}
+}
+
+@media (min-width: 1600px) {
+	.search-div {
+		padding-left: 640px;
+	}
 }
