@@ -228,6 +228,44 @@ footer {
   height: 200px;
 }
 
+@media (min-width: 375px) {
+  .results-img,
+  .results-img-1,
+  .results-img-2,
+  .results-img-3,
+  .results-img-4,
+  .results-img-5,
+  .results-img-6,
+  .results-img-7,
+  .results-img-8,
+  .results-img-9,
+  .results-img-0 {
+    background-size: cover;
+    background-position: center;
+    width: 360px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 425px) {
+  .results-img,
+  .results-img-1,
+  .results-img-2,
+  .results-img-3,
+  .results-img-4,
+  .results-img-5,
+  .results-img-6,
+  .results-img-7,
+  .results-img-8,
+  .results-img-9,
+  .results-img-0 {
+    background-size: cover;
+    background-position: center;
+    width: 410px;
+    height: 200px;
+  }
+}
+
 @media (min-width: 768px) {
   .footer-2 {
     justify-content: space-between;
