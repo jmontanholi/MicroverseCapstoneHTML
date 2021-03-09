@@ -332,14 +332,35 @@ footer {
   .results-img-0 {
     background-size: cover;
     background-position: center;
-    width: 450px;
-    height: 240px;
+    width: 300px;
+    height: 350px;
   }
 }
 
 @media (min-width: 1440px) {
   .search-div {
     padding-left: 420px;
+  }
+
+  .result-txt {
+    font-size: 16px;
+  }
+
+  .results-img,
+  .results-img-1,
+  .results-img-2,
+  .results-img-3,
+  .results-img-4,
+  .results-img-5,
+  .results-img-6,
+  .results-img-7,
+  .results-img-8,
+  .results-img-9,
+  .results-img-0 {
+    background-size: cover;
+    background-position: center;
+    width: 450px;
+    height: 280px;
   }
 }
 
