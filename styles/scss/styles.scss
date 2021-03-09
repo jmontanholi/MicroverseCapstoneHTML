@@ -102,6 +102,26 @@ $font-h: 'Roboto', sans-serif;
   color: black;
 }
 
+.hot-ads-hover {
+  border: 1px solid $black;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+
+.hot-ads-hover:hover {
+  background-color: $black;
+}
+
+.hot-ads-text {
+  font-size: 12px;
+}
+
+.hot-ads-img {
+  background-image: url(../../Assets/imgs/sekiro.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 .arrow-hover {
   transition: all 0.5s;
 }
@@ -215,6 +235,17 @@ footer {
     width: 320px;
     height: 100%;
     flex: 1;
+  }
+
+  .hot-ads-img {
+    background-image: url(../../Assets/imgs/sekiro.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+  }
+
+  .hot-ads-text {
+    font-size: 20px;
   }
 }
 
