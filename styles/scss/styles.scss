@@ -171,14 +171,50 @@ footer {
   justify-content: center;
 }
 
-.results-img {
+.results-img-1 {
   background: url(https://cdn.akamai.steamstatic.com/steam/apps/945360/header.jpg?t=1611793703) no-repeat;
+}
+
+.results-img-2 {
+  background: url(https://cdn.akamai.steamstatic.com/steam/apps/960090/header.jpg?t=1612862372) no-repeat;
+}
+
+.results-img-3 {
+  background: url(https://cdn.akamai.steamstatic.com/steam/apps/945360/header.jpg?t=1611793703) no-repeat;
+}
+
+.results-img-4 {
+  background: url(https://cdn.akamai.steamstatic.com/steam/apps/945360/header.jpg?t=1611793703) no-repeat;
+}
+
+.results-img-5 {
+  background: url(https://cdn.akamai.steamstatic.com/steam/apps/945360/header.jpg?t=1611793703) no-repeat;
+}
+
+.results-img-6 {
+  background: url(https://cdn.akamai.steamstatic.com/steam/apps/945360/header.jpg?t=1611793703) no-repeat;
+}
+
+.results-img-7 {
+  background: url(https://cdn.akamai.steamstatic.com/steam/apps/945360/header.jpg?t=1611793703) no-repeat;
+}
+
+.results-img-8 {
+  background: url(https://cdn.akamai.steamstatic.com/steam/apps/945360/header.jpg?t=1611793703) no-repeat;
+}
+
+.results-img-9 {
+  background: url(https://cdn.akamai.steamstatic.com/steam/apps/945360/header.jpg?t=1611793703) no-repeat;
+}
+
+.results-img-0 {
+  background: url(https://cdn.akamai.steamstatic.com/steam/apps/945360/header.jpg?t=1611793703) no-repeat;
+}
+
+.results-img,
+.results-img-1 {
   background-size: cover;
   background-position: center;
-  height: 200px;
-  width: 400px;
-  max-height: 100%;
-  max-width: 100%;
 }
 
 @media (min-width: 768px) {
@@ -227,6 +263,10 @@ footer {
 
   .result-txt {
     font-size: 13px;
+  }
+
+  .form-txt {
+    font-size: 22px;
   }
 }
 
