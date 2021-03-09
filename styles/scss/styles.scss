@@ -224,6 +224,10 @@ footer {
     height: 200px;
     width: 250px;
   }
+
+  .result-txt {
+    font-size: 13px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -246,6 +250,10 @@ footer {
 
   .hot-ads-text {
     font-size: 20px;
+  }
+
+  .result-txt {
+    font-size: 16px;
   }
 }
 
