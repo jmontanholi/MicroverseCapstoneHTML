@@ -2,7 +2,7 @@
 
 # Microverse Capstone HTML & CSS 
 
-> This Project is a simulation of a real job project based on a website for selling products.
+> Capstone Project For Microverse - The goal of this project is to learn how to do a website from scratch following the designs wanted by the "client" and show my knowledge of HTML & CSS.
 
 ![screenshot](Assets/imgs/print.png)
 
