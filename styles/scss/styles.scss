@@ -4,6 +4,10 @@ $black: #383838;
 $font-g: 'Montserrat', sans-serif;
 $font-h: 'Roboto', sans-serif;
 
+html {
+  overflow-x: hidden;
+}
+
 .flex1 {
   flex: 1;
 }
