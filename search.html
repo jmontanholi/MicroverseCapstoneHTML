@@ -17,7 +17,7 @@
   <body class="bg-light-grey">
     <!-- Header -->
     <header>
-        <nav class="nav">
+        <nav class="nav row">
             <div class="nav-1">
                 <i class="bi bi-box-seam color-red me-1"></i>
                 <h2 class="text-light font-1 mt-2">FICTIONAL</h2>
@@ -38,21 +38,23 @@
             </div>
         </nav>
         <!-- Ipad/Desktop searchbar -->
-        <div class="bg-red d-none d-md-flex flex-column align-items-center">
-            <div class="text-start align-self-start pt-5 search-div">
-                <h1 class="text-light fw-bold">FICTIONAL</h1>
-                <p class="text-light">Buying And Selling Couldn't Be Simpler Than This</p>
-            </div>
-            <div>
-                <form action="#" class="d-flex py-5">
-                    <select class="form-select rounded-0" name="departments" id="departments">
-                        <option value="games">Games</option>
-                        <option value="consoles">Consoles</option>
-                        <option value="acessories">Acessories</option>
-                    </select>
-                    <input class="form-control rounded-0" type="text" placeholder="What do you search for?" size="45">
-                    <a href="#" class="ms-3 border-0 rounded-1 px-3 form-btn-hover text-decoration-none d-flex align-items-center">SEARCH</a>
-                </form>
+        <div class="row">
+            <div class="bg-red d-none d-md-flex flex-column align-items-center">
+                <div class="text-start align-self-start pt-5 search-div">
+                    <h1 class="text-light fw-bold">FICTIONAL</h1>
+                    <p class="text-light">Buying And Selling Couldn't Be Simpler Than This</p>
+                </div>
+                <div>
+                    <form action="#" class="d-flex py-5">
+                        <select class="form-select rounded-0" name="departments" id="departments">
+                            <option value="games">Games</option>
+                            <option value="consoles">Consoles</option>
+                            <option value="acessories">Acessories</option>
+                        </select>
+                        <input class="form-control rounded-0" type="text" placeholder="What do you search for?" size="45">
+                        <a href="#" class="ms-3 border-0 rounded-1 px-3 form-btn-hover text-decoration-none d-flex align-items-center">SEARCH</a>
+                    </form>
+                </div>
             </div>
         </div>
     </header>
@@ -241,7 +243,7 @@
         </div>
     </main>
     <!-- Footer -->
-    <footer class="bg-light">
+    <footer class="bg-light row">
         <nav class="row">
             <div class="d-none d-md-grid col-md ms-2">
                 <h3 class="color-red footer-title">Categories</h3>
