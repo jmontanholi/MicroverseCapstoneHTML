@@ -14,7 +14,7 @@
 
     <title>Microverse Capstone - HTML & CSS</title>
   </head>
-  <body class="bg-light-grey">
+  <body class="bg-light-grey m-0">
     <!-- Header -->
     <header>
         <nav class="nav">
@@ -36,9 +36,20 @@
             <div class="nav-3 d-none d-md-flex">
                 <a href="#" class="color-grey text-decoration-none badge rounded-1 nav-btn-hover">POST AN AD</a>
             </div>
+            <div class="nav-4 d-none d-lg-flex">
+                <div>
+                    <i class="bi bi-person-plus-fill color-grey"></i>
+                    <a class="color-grey text-decoration-none link-hover" href="#">Sign Up</a>
+                </div>
+                <div>
+                    <i class="bi bi-person-check-fill color-grey"></i>
+                    <a class="color-grey text-decoration-none link-hover" href="#">Sign In</a>
+                </div>
+                
+            </div>
         </nav>
         <!-- Ipad/Desktop searchbar -->
-        <div class="bg-red d-none d-md-flex flex-column align-items-center">
+        <section class="bg-red d-none d-md-flex flex-column align-items-center">
             <div class="text-center pt-5">
                 <h1 class="text-light fw-bold">FICTIONAL</h1>
                 <p class="text-light">Buying And Selling Couldn't Be Simpler Than This</p>
@@ -54,248 +65,250 @@
                     <a href="./search.html" class="ms-3 border-0 rounded-1 px-3 form-btn-hover text-decoration-none d-flex align-items-center">SEARCH</a>
                 </form>
             </div>
-        </div>
+        </section>
     </header>
     <main class="bg-light-grey">
         <!-- Ipad/Desktop HOT ADS -->
-        <div class="ms-5 d-none d-md-flex"><h2 class="color-black ms-5">HOT ADS</h2></div>
-        <div class="d-none d-md-flex mx-3">
-            <a href="#" class="text-decoration-none align-self-center me-5 hot-ads-hover"><i class="bi bi-caret-left d-none d-md-grid fs-1 color-red"></i></a>
-            <div class="bg-light  border border-1 row">
-                <div class="col-md-6 hot-ads-img">
-                </div>
-                <div class="col-6 d-flex flex-column justify-content-between">
-                    <h2 class="h1 lh-1 color-black font-1 my-4">Sekiro - Shadows Die Twice</h2>
-                    <p class="hot-ads-text font-2">Game of the Year - The Game Awards 2019 Best Action Game of 2019 - IGN Carve your own clever path to vengeance in the award winning adventure from developer FromSoftware, creators of Bloodborne and the Dark Souls series. Take Revenge. Restore Your Honor. Kill Ingeniously.</p>
-                    <p class="color-grey lh-1 fs-5 font-2">From: <span class="color-black">Steam</span></p>
-                    <div class="d-flex justify-content-between align-items-end">
-                        <i class="bi bi-plus-square color-grey fs-1 plus-hover"></i>
-                        <p class="fs-1 m-0 color-red"> <span class="text-decoration-line-through color-black fs-3">59$</span> 29$</p>
+        <div class="ms-5 d-none d-md-flex">
+            <h2 class="color-black ms-5">HOT ADS</h2></div>
+            <div class="d-none d-md-flex mx-3">
+                <a href="#" class="text-decoration-none align-self-center me-5 hot-ads-hover"><i class="bi bi-caret-left d-none d-md-grid fs-1 color-red"></i></a>
+                <div class="bg-light  border border-1 row">
+                    <div class="col-md-6 hot-ads-img">
                     </div>
-                </div>
-            </div> 
-            <a href="#" class="text-decoration-none align-self-center ms-5 hot-ads-hover"><i class="bi bi-caret-right d-none d-md-grid fs-1 color-red"></i></a>
-        </div>
-        <!-- Normal Ads (mobile and dekstop) -->
-        <div>
-            <div class="bg-light d-flex justify-content-start align-items-center border-bottom border-2 mb-3">
-                <i class="bi bi-cpu color-black fs-2 ms-3"></i>
-                <h3 class="fs-4 m-0 mx-2">Games</h3>
-                <p class="m-0 ad-sub">(All genre. Platform: Computer)</p>
+                    <div class="col-6 d-flex flex-column justify-content-between">
+                        <h2 class="h1 lh-1 color-black font-1 my-4">Sekiro - Shadows Die Twice</h2>
+                        <p class="hot-ads-text font-2">Game of the Year - The Game Awards 2019 Best Action Game of 2019 - IGN Carve your own clever path to vengeance in the award winning adventure from developer FromSoftware, creators of Bloodborne and the Dark Souls series. Take Revenge. Restore Your Honor. Kill Ingeniously.</p>
+                        <p class="color-grey lh-1 fs-5 font-2">From: <span class="color-black">Steam</span></p>
+                        <div class="d-flex justify-content-between align-items-end">
+                            <i class="bi bi-plus-square color-grey fs-1 plus-hover"></i>
+                            <p class="fs-1 m-0 color-red"> <span class="text-decoration-line-through color-black fs-3">59$</span> 29$</p>
+                        </div>
+                    </div>
+                </div> 
+                <a href="#" class="text-decoration-none align-self-center ms-5 hot-ads-hover"><i class="bi bi-caret-right d-none d-md-grid fs-1 color-red"></i></a>
             </div>
-            <div class="d-md-flex">
-                <i class="bi bi-caret-left d-none d-md-grid fs-1 align-self-center arrow-hover"></i>
-                <div class="bg-light-grey row g-3 mx-3">
-                    <div class="bg-light col-6 col-md-4 col-lg-3 border border-1 d-flex flex-column justify-content-between">
-                        <img class="img-fluid mt-3" src="Assets/imgs/amongus.jpg" alt="">
-                        <p class="ad-p-1 lh-1 color-black font-2 my-1">Among Us</p>
-                        <p class="color-grey ad-p-2 lh-1 font-2">From: <span class="color-black">Steam</span></p>
-                        <div class="d-flex justify-content-between align-items-end">
-                            <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
-                            <p class="fs-4 m-0 color-red">20$</p>
-                        </div>
-                    </div>
-                    <div class="bg-light col-6 col-md-4 col-lg-3 border border-1 d-flex flex-column justify-content-between">
-                        <img class="img-fluid mt-3" src="Assets/imgs/bloons.jpg" alt="">
-                        <p class="ad-p-1 lh-1 color-black font-2 my-1">Bloons TD 6</p>
-                        <p class="color-grey ad-p-2 lh-1 font-2">From: <span class="color-black">Steam</span></p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
-                            <p class="fs-4 m-0 color-red">20$</p>
-                        </div>
-                    </div>
-                    <div class="bg-light col-6 col-md-4 col-lg-3 border border-1 d-flex flex-column justify-content-between">
-                        <img class="img-fluid mt-3" src="Assets/imgs/dyinglight.jpg" alt="">
-                        <p class="ad-p-1 lh-1 color-black font-2 my-1">Dying Light</p>
-                        <p class="color-grey ad-p-2 lh-1 font-2">From: <span class="color-black">Steam</span></p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
-                            <p class="fs-4 m-0 color-red">27$</p>
-                        </div>
-                    </div>
-                    <div class="bg-light col-6 col-lg-3 d-md-none d-lg-grid border border-1 d-flex flex-column justify-content-between">
-                        <img class="img-fluid mt-3" src="Assets/imgs/flightsimulator.jpg" alt="">
-                        <p class="ad-p-1 lh-1 color-black font-2 my-1">Flight Simulator</p>
-                        <p class="color-grey ad-p-2 lh-1 font-2">From: <span class="color-black">Steam</span></p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
-                            <p class="fs-4 m-0 color-red">89$</p>
-                        </div>
-                    </div>
-                    <div class="bg-light col-6 d-md-none border border-1 d-flex flex-column justify-content-between">
-                        <img class="img-fluid mt-3" src="Assets/imgs/gta.jpg" alt="">
-                        <p class="ad-p-1 lh-1 color-black font-2 my-1">Grand Theft Auto V</p>
-                        <p class="color-grey ad-p-2 lh-1 font-2">From: <span class="color-black">Steam</span></p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
-                            <p class="fs-4 m-0 color-red">60$</p>
-                        </div>
-                    </div>
-                    <div class="bg-light col-6 d-md-none border border-1 d-flex flex-column justify-content-between">
-                        <img class="img-fluid mt-3" src="Assets/imgs/hades.jpg" alt="">
-                        <p class="ad-p-1 lh-1 color-black font-2 my-1">Hades</p>
-                        <p class="color-grey ad-p-2 lh-1 font-2">From: <span class="color-black">Steam</span></p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
-                            <p class="fs-4 m-0 color-red">15$</p>
-                        </div>
-                    </div>
-                    <div class="bg-light col-6 d-md-none border border-1 d-flex flex-column justify-content-between">
-                        <img class="img-fluid mt-3" src="Assets/imgs/loophero.jpg" alt="">
-                        <p class="ad-p-1 lh-1 color-black font-2 my-1">Loop Hero</p>
-                        <p class="color-grey ad-p-2 lh-1 font-2">From: <span class="color-black">Steam</span></p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
-                            <p class="fs-4 m-0 color-red">15$</p>
-                        </div>
-                    </div>
-                    <div class="bg-light col-6 d-md-none border border-1 d-flex flex-column justify-content-between">
-                        <img class="img-fluid mt-3" src="Assets/imgs/monsterhunter.jpg" alt="">
-                        <p class="ad-p-1 lh-1 color-black font-2 my-1">Monster Hunter World</p>
-                        <p class="color-grey ad-p-2 lh-1 font-2">From: <span class="color-black">Steam</span></p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
-                            <p class="fs-4 m-0 color-red">40$</p>
-                        </div>
-                    </div>
-                    <div class="bg-light col-6 d-md-none border border-1 d-flex flex-column justify-content-between">
-                        <img class="img-fluid mt-3" src="Assets/imgs/stardewvalley.jpg" alt="">
-                        <p class="ad-p-1 lh-1 color-black font-2 my-1">Stardew Valley</p>
-                        <p class="color-grey ad-p-2 lh-1 font-2">From: <span class="color-black">Steam</span></p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
-                            <p class="fs-4 m-0 color-red">15$</p>
-                        </div>
-                    </div>
-                    <div class="bg-light col-6 d-md-none border border-1 d-flex flex-column justify-content-between">
-                        <img class="img-fluid mt-3" src="Assets/imgs/terraria.jpg" alt="">
-                        <p class="ad-p-1 lh-1 color-black font-2 my-1">Terraria</p>
-                        <p class="color-grey ad-p-2 lh-1 font-2">From: <span class="color-black">Steam</span></p>
-                        <div class="d-flex justify-content-between align-items-end">
-                            <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
-                            <p class="fs-4 m-0 color-red">10$</p>
-                        </div>
-                    </div>
+            <!-- Normal Ads (mobile and dekstop) -->
+            <div>
+                <div class="bg-light d-flex justify-content-start align-items-center border-bottom border-2 mb-3">
+                    <i class="bi bi-cpu color-black fs-2 ms-3"></i>
+                    <h3 class="fs-4 m-0 mx-2">Games</h3>
+                    <p class="m-0 ad-sub">(All genre. Platform: Computer)</p>
                 </div>
-                <i class="bi bi-caret-right d-none d-md-grid fs-1 align-self-center arrow-hover"></i>
-            </div>
-        </div>
-        <!-- Second Ad List -->
-        <div class="my-3">
-            <div class="bg-light d-flex justify-content-start align-items-center border-bottom border-2">
-                <i class="bi bi-controller color-black fs-2 ms-3"></i>
-                <h3 class="fs-4 m-0 mx-2">Consoles</h3>
-                <p class="m-0 ad-sub">(Sony & Microsoft)</p>
-            </div>
-            <div class="d-md-flex">
-                <i class="bi bi-caret-left d-none d-md-grid fs-1 align-self-center arrow-hover"></i>
-                <div class="mt-2 bg-light-grey row g-3 mx-3">
-                    <div class="bg-light col-6 col-md-4 col-lg-3 border border-1 d-flex flex-column justify-content-between">
-                        <img class="img-fluid mt-3" src="Assets/imgs/ps4.jpg" alt="">
-                        <p class="ad-p-1 lh-1 color-black font-2 my-1">PlayStation 4 Console - 1TB Slim Edition</p>
-                        <p class="color-grey ad-p-2 lh-1 font-2">From: <span class="color-black">Amazon</span></p>
-                        <div class="d-flex justify-content-between align-items-end">
-                            <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
-                            <p class="fs-4 m-0 color-red">368$</p>
+                <div class="d-md-flex">
+                    <i class="bi bi-caret-left d-none d-md-grid fs-1 align-self-center arrow-hover"></i>
+                    <div class="bg-light-grey row g-3 mx-3">
+                        <div class="bg-light col-6 col-md-4 col-lg-3 border border-1 d-flex flex-column justify-content-between">
+                            <img class="img-fluid mt-3" src="Assets/imgs/amongus.jpg" alt="">
+                            <p class="ad-p-1 lh-1 color-black font-2 my-1">Among Us</p>
+                            <p class="color-grey ad-p-2 lh-1 font-2">From: <span class="color-black">Steam</span></p>
+                            <div class="d-flex justify-content-between align-items-end">
+                                <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
+                                <p class="fs-4 m-0 color-red">20$</p>
+                            </div>
+                        </div>
+                        <div class="bg-light col-6 col-md-4 col-lg-3 border border-1 d-flex flex-column justify-content-between">
+                            <img class="img-fluid mt-3" src="Assets/imgs/bloons.jpg" alt="">
+                            <p class="ad-p-1 lh-1 color-black font-2 my-1">Bloons TD 6</p>
+                            <p class="color-grey ad-p-2 lh-1 font-2">From: <span class="color-black">Steam</span></p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
+                                <p class="fs-4 m-0 color-red">20$</p>
+                            </div>
+                        </div>
+                        <div class="bg-light col-6 col-md-4 col-lg-3 border border-1 d-flex flex-column justify-content-between">
+                            <img class="img-fluid mt-3" src="Assets/imgs/dyinglight.jpg" alt="">
+                            <p class="ad-p-1 lh-1 color-black font-2 my-1">Dying Light</p>
+                            <p class="color-grey ad-p-2 lh-1 font-2">From: <span class="color-black">Steam</span></p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
+                                <p class="fs-4 m-0 color-red">27$</p>
+                            </div>
+                        </div>
+                        <div class="bg-light col-6 col-lg-3 d-md-none d-lg-grid border border-1 d-flex flex-column justify-content-between">
+                            <img class="img-fluid mt-3" src="Assets/imgs/flightsimulator.jpg" alt="">
+                            <p class="ad-p-1 lh-1 color-black font-2 my-1">Flight Simulator</p>
+                            <p class="color-grey ad-p-2 lh-1 font-2">From: <span class="color-black">Steam</span></p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
+                                <p class="fs-4 m-0 color-red">89$</p>
+                            </div>
+                        </div>
+                        <div class="bg-light col-6 d-md-none border border-1 d-flex flex-column justify-content-between">
+                            <img class="img-fluid mt-3" src="Assets/imgs/gta.jpg" alt="">
+                            <p class="ad-p-1 lh-1 color-black font-2 my-1">Grand Theft Auto V</p>
+                            <p class="color-grey ad-p-2 lh-1 font-2">From: <span class="color-black">Steam</span></p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
+                                <p class="fs-4 m-0 color-red">60$</p>
+                            </div>
+                        </div>
+                        <div class="bg-light col-6 d-md-none border border-1 d-flex flex-column justify-content-between">
+                            <img class="img-fluid mt-3" src="Assets/imgs/hades.jpg" alt="">
+                            <p class="ad-p-1 lh-1 color-black font-2 my-1">Hades</p>
+                            <p class="color-grey ad-p-2 lh-1 font-2">From: <span class="color-black">Steam</span></p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
+                                <p class="fs-4 m-0 color-red">15$</p>
+                            </div>
+                        </div>
+                        <div class="bg-light col-6 d-md-none border border-1 d-flex flex-column justify-content-between">
+                            <img class="img-fluid mt-3" src="Assets/imgs/loophero.jpg" alt="">
+                            <p class="ad-p-1 lh-1 color-black font-2 my-1">Loop Hero</p>
+                            <p class="color-grey ad-p-2 lh-1 font-2">From: <span class="color-black">Steam</span></p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
+                                <p class="fs-4 m-0 color-red">15$</p>
+                            </div>
+                        </div>
+                        <div class="bg-light col-6 d-md-none border border-1 d-flex flex-column justify-content-between">
+                            <img class="img-fluid mt-3" src="Assets/imgs/monsterhunter.jpg" alt="">
+                            <p class="ad-p-1 lh-1 color-black font-2 my-1">Monster Hunter World</p>
+                            <p class="color-grey ad-p-2 lh-1 font-2">From: <span class="color-black">Steam</span></p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
+                                <p class="fs-4 m-0 color-red">40$</p>
+                            </div>
+                        </div>
+                        <div class="bg-light col-6 d-md-none border border-1 d-flex flex-column justify-content-between">
+                            <img class="img-fluid mt-3" src="Assets/imgs/stardewvalley.jpg" alt="">
+                            <p class="ad-p-1 lh-1 color-black font-2 my-1">Stardew Valley</p>
+                            <p class="color-grey ad-p-2 lh-1 font-2">From: <span class="color-black">Steam</span></p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
+                                <p class="fs-4 m-0 color-red">15$</p>
+                            </div>
+                        </div>
+                        <div class="bg-light col-6 d-md-none border border-1 d-flex flex-column justify-content-between">
+                            <img class="img-fluid mt-3" src="Assets/imgs/terraria.jpg" alt="">
+                            <p class="ad-p-1 lh-1 color-black font-2 my-1">Terraria</p>
+                            <p class="color-grey ad-p-2 lh-1 font-2">From: <span class="color-black">Steam</span></p>
+                            <div class="d-flex justify-content-between align-items-end">
+                                <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
+                                <p class="fs-4 m-0 color-red">10$</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="bg-light col-6 col-md-4 col-lg-3 border border-1 d-flex flex-column justify-content-between" style="border: 1px solid red;">
-                        <img class="mt-3 img-fluid ps5-img" src="Assets/imgs/ps5.jpg" alt="">
-                        <p class="ad-p-1 lh-1 color-black font-2 my-1">PlayStation 5 Console</p>
-                        <p class="color-grey ad-p-2 lh-1 font-2">From: <span class="color-black">Amazon</span></p>
-                        <div class="d-flex justify-content-between align-items-end">
-                            <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
-                            <p class="fs-4 m-0 color-red">1500$</p>
-                        </div>
-                    </div>
-                    <div class="bg-light col-6 col-md-4 col-lg-3 border border-1 d-flex flex-column justify-content-between">
-                        <img class="img-fluid mt-3" src="Assets/imgs/xbox.jpg" alt="">
-                        <p class="ad-p-1 lh-1 color-black font-2 my-1">Xbox One S 1TB Console</p>
-                        <p class="color-grey ad-p-2 lh-1 font-2">From: <span class="color-black">Amazon</span></p>
-                        <div class="d-flex justify-content-between align-items-end">
-                            <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
-                            <p class="fs-4 m-0 color-red">370$</p>
-                        </div>
-                    </div>
-                    <div class="bg-light col-6 col-lg-3 d-md-none d-lg-grid border border-1 d-flex flex-column justify-content-between">
-                        <img class="img-fluid mt-3" src="Assets/imgs/xboxs.jpg" alt="">
-                        <p class="ad-p-1 lh-1 color-black font-2 my-1">Xbox Series S - 512GB SSD</p>
-                        <p class="color-grey ad-p-2 lh-1 font-2">From: <span class="color-black">Amazon</span></p>
-                        <div class="d-flex justify-content-between align-items-end">
-                            <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
-                            <p class="fs-4 m-0 color-red">499$</p>
-                        </div>
-                    </div>
+                    <i class="bi bi-caret-right d-none d-md-grid fs-1 align-self-center arrow-hover"></i>
                 </div>
-                <i class="bi bi-caret-right d-none d-md-grid fs-1 align-self-center arrow-hover"></i>
             </div>
-        </div>
-        <!-- Third Ads List -->
-        <div class="my-3">
-            <div class="bg-light d-flex justify-content-start align-items-center border-bottom border-2">
-                <i class="bi bi-headset color-black fs-2 ms-3"></i>
-                <h3 class="fs-4 m-0 mx-2">Acessories</h3>
-                <p class="m-0 ad-sub">(Headsets, Controls, Keyboards, etc.)</p>
-            </div>
-            <div class="d-md-flex">
-                <i class="bi bi-caret-left d-none d-md-grid fs-1 align-self-center arrow-hover"></i>
-                <div class="mt-2 bg-light-grey row g-3 mx-3">
-                    <div class="bg-light col-6 col-md-4 col-lg-3 border border-1 d-flex flex-column justify-content-between">
-                        <img class="img-fluid mt-3" src="Assets/imgs/mouse1.jpg" alt="">
-                        <p class="ad-p-1 lh-1 color-black font-2 my-1">Redragon M711 Cobra RGB Wired Gaming Mouse</p>
-                        <p class="color-grey ad-p-2 lh-1 font-2">From: <span class="color-black">Amazon</span></p>
-                        <div class="d-flex justify-content-between align-items-end">
-                            <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
-                            <p class="fs-4 m-0 color-red">19$</p>
-                        </div>
-                    </div>
-                    <div class="bg-light col-6 col-md-4 col-lg-3 border border-1 d-flex flex-column justify-content-between">
-                        <img class="mt-3 img-fluid ps5-img" src="Assets/imgs/mouse2.jpg" alt="">
-                        <p class="ad-p-1 lh-1 color-black font-2 my-1">Razer DeathAdder Elite Gaming Mouse</p>
-                        <p class="color-grey ad-p-2 lh-1 font-2">From: <span class="color-black">Amazon</span></p>
-                        <div class="d-flex justify-content-between align-items-end">
-                            <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
-                            <p class="fs-4 m-0 color-red">63$</p>
-                        </div>
-                    </div>
-                    <div class="bg-light col-6 col-md-4 col-lg-3 border border-1 d-flex flex-column justify-content-between">
-                        <img class="img-fluid mt-3" src="Assets/imgs/headset1.jpg" alt="">
-                        <p class="ad-p-1 lh-1 color-black font-2 my-1">HyperX Cloud II - Gaming Headset</p>
-                        <p class="color-grey ad-p-2 lh-1 font-2">From: <span class="color-black">Amazon</span></p>
-                        <div class="d-flex justify-content-between align-items-end">
-                            <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
-                            <p class="fs-4 m-0 color-red">99$</p>
-                        </div>
-                    </div>
-                    <div class="bg-light col-6 col-md-4 col-lg-3 d-md-none d-lg-grid border border-1 d-flex flex-column justify-content-between">
-                        <img class="img-fluid mt-3" src="Assets/imgs/headset2.jpg" alt="">
-                        <p class="ad-p-1 lh-1 color-black font-2 my-1">Turtle Beach Stealth 600 Gen 2 Wireless Gaming Headset for PlayStation 5</p>
-                        <p class="color-grey ad-p-2 lh-1 font-2">From: <span class="color-black">Amazon</span></p>
-                        <div class="d-flex justify-content-between align-items-end">
-                            <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
-                            <p class="fs-4 m-0 color-red">499$</p>
-                        </div>
-                    </div>
-                    <div class="bg-light col-6 col-md-4 d-md-none border border-1 d-flex flex-column justify-content-between">
-                        <img class="img-fluid mt-3" src="Assets/imgs/key1.jpg" alt="">
-                        <p class="ad-p-1 lh-1 color-black font-2 my-1">Corsair K55 RGB Gaming Keyboard</p>
-                        <p class="color-grey ad-p-2 lh-1 font-2">From: <span class="color-black">Amazon</span></p>
-                        <div class="d-flex justify-content-between align-items-end">
-                            <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
-                            <p class="fs-4 m-0 color-red">499$</p>
-                        </div>
-                    </div>
-                    <div class="bg-light col-6 d-md-none border border-1 d-flex flex-column justify-content-between">
-                        <img class="img-fluid mt-3" src="Assets/imgs/key2.jpg" alt="">
-                        <p class="ad-p-1 lh-1 color-black font-2 my-1">Logitech G613 LIGHTSPEED Wireless Mechanical Gaming Keyboard</p>
-                        <p class="color-grey ad-p-2 lh-1 font-2">From: <span class="color-black">Amazon</span></p>
-                        <div class="d-flex justify-content-between align-items-end">
-                            <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
-                            <p class="fs-4 m-0 color-red">499$</p>
-                        </div>
-                    </div>
+            <!-- Second Ad List -->
+            <div class="my-3">
+                <div class="bg-light d-flex justify-content-start align-items-center border-bottom border-2">
+                    <i class="bi bi-controller color-black fs-2 ms-3"></i>
+                    <h3 class="fs-4 m-0 mx-2">Consoles</h3>
+                    <p class="m-0 ad-sub">(Sony & Microsoft)</p>
                 </div>
-                <i class="bi bi-caret-right d-none d-md-grid fs-1 align-self-center arrow-hover"></i>
+                <div class="d-md-flex">
+                    <i class="bi bi-caret-left d-none d-md-grid fs-1 align-self-center arrow-hover"></i>
+                    <div class="mt-2 bg-light-grey row g-3 mx-3">
+                        <div class="bg-light col-6 col-md-4 col-lg-3 border border-1 d-flex flex-column justify-content-between">
+                            <img class="img-fluid mt-3" src="Assets/imgs/ps4.jpg" alt="">
+                            <p class="ad-p-1 lh-1 color-black font-2 my-1">PlayStation 4 Console - 1TB Slim Edition</p>
+                            <p class="color-grey ad-p-2 lh-1 font-2">From: <span class="color-black">Amazon</span></p>
+                            <div class="d-flex justify-content-between align-items-end">
+                                <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
+                                <p class="fs-4 m-0 color-red">368$</p>
+                            </div>
+                        </div>
+                        <div class="bg-light col-6 col-md-4 col-lg-3 border border-1 d-flex flex-column justify-content-between" style="border: 1px solid red;">
+                            <img class="mt-3 img-fluid ps5-img" src="Assets/imgs/ps5.jpg" alt="">
+                            <p class="ad-p-1 lh-1 color-black font-2 my-1">PlayStation 5 Console</p>
+                            <p class="color-grey ad-p-2 lh-1 font-2">From: <span class="color-black">Amazon</span></p>
+                            <div class="d-flex justify-content-between align-items-end">
+                                <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
+                                <p class="fs-4 m-0 color-red">1500$</p>
+                            </div>
+                        </div>
+                        <div class="bg-light col-6 col-md-4 col-lg-3 border border-1 d-flex flex-column justify-content-between">
+                            <img class="img-fluid mt-3" src="Assets/imgs/xbox.jpg" alt="">
+                            <p class="ad-p-1 lh-1 color-black font-2 my-1">Xbox One S 1TB Console</p>
+                            <p class="color-grey ad-p-2 lh-1 font-2">From: <span class="color-black">Amazon</span></p>
+                            <div class="d-flex justify-content-between align-items-end">
+                                <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
+                                <p class="fs-4 m-0 color-red">370$</p>
+                            </div>
+                        </div>
+                        <div class="bg-light col-6 col-lg-3 d-md-none d-lg-grid border border-1 d-flex flex-column justify-content-between">
+                            <img class="img-fluid mt-3" src="Assets/imgs/xboxs.jpg" alt="">
+                            <p class="ad-p-1 lh-1 color-black font-2 my-1">Xbox Series S - 512GB SSD</p>
+                            <p class="color-grey ad-p-2 lh-1 font-2">From: <span class="color-black">Amazon</span></p>
+                            <div class="d-flex justify-content-between align-items-end">
+                                <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
+                                <p class="fs-4 m-0 color-red">499$</p>
+                            </div>
+                        </div>
+                    </div>
+                    <i class="bi bi-caret-right d-none d-md-grid fs-1 align-self-center arrow-hover"></i>
+                </div>
+            </div>
+            <!-- Third Ads List -->
+            <div class="my-3">
+                <div class="bg-light d-flex justify-content-start align-items-center border-bottom border-2">
+                    <i class="bi bi-headset color-black fs-2 ms-3"></i>
+                    <h3 class="fs-4 m-0 mx-2">Acessories</h3>
+                    <p class="m-0 ad-sub">(Headsets, Controls, Keyboards, etc.)</p>
+                </div>
+                <div class="d-md-flex">
+                    <i class="bi bi-caret-left d-none d-md-grid fs-1 align-self-center arrow-hover"></i>
+                    <div class="mt-2 bg-light-grey row g-3 mx-3">
+                        <div class="bg-light col-6 col-md-4 col-lg-3 border border-1 d-flex flex-column justify-content-between">
+                            <img class="img-fluid mt-3" src="Assets/imgs/mouse1.jpg" alt="">
+                            <p class="ad-p-1 lh-1 color-black font-2 my-1">Redragon M711 Cobra RGB Wired Gaming Mouse</p>
+                            <p class="color-grey ad-p-2 lh-1 font-2">From: <span class="color-black">Amazon</span></p>
+                            <div class="d-flex justify-content-between align-items-end">
+                                <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
+                                <p class="fs-4 m-0 color-red">19$</p>
+                            </div>
+                        </div>
+                        <div class="bg-light col-6 col-md-4 col-lg-3 border border-1 d-flex flex-column justify-content-between">
+                            <img class="mt-3 img-fluid ps5-img" src="Assets/imgs/mouse2.jpg" alt="">
+                            <p class="ad-p-1 lh-1 color-black font-2 my-1">Razer DeathAdder Elite Gaming Mouse</p>
+                            <p class="color-grey ad-p-2 lh-1 font-2">From: <span class="color-black">Amazon</span></p>
+                            <div class="d-flex justify-content-between align-items-end">
+                                <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
+                                <p class="fs-4 m-0 color-red">63$</p>
+                            </div>
+                        </div>
+                        <div class="bg-light col-6 col-md-4 col-lg-3 border border-1 d-flex flex-column justify-content-between">
+                            <img class="img-fluid mt-3" src="Assets/imgs/headset1.jpg" alt="">
+                            <p class="ad-p-1 lh-1 color-black font-2 my-1">HyperX Cloud II - Gaming Headset</p>
+                            <p class="color-grey ad-p-2 lh-1 font-2">From: <span class="color-black">Amazon</span></p>
+                            <div class="d-flex justify-content-between align-items-end">
+                                <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
+                                <p class="fs-4 m-0 color-red">99$</p>
+                            </div>
+                        </div>
+                        <div class="bg-light col-6 col-md-4 col-lg-3 d-md-none d-lg-grid border border-1 d-flex flex-column justify-content-between">
+                            <img class="img-fluid mt-3" src="Assets/imgs/headset2.jpg" alt="">
+                            <p class="ad-p-1 lh-1 color-black font-2 my-1">Turtle Beach Stealth 600 Gen 2 Wireless Gaming Headset for PlayStation 5</p>
+                            <p class="color-grey ad-p-2 lh-1 font-2">From: <span class="color-black">Amazon</span></p>
+                            <div class="d-flex justify-content-between align-items-end">
+                                <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
+                                <p class="fs-4 m-0 color-red">499$</p>
+                            </div>
+                        </div>
+                        <div class="bg-light col-6 col-md-4 d-md-none border border-1 d-flex flex-column justify-content-between">
+                            <img class="img-fluid mt-3" src="Assets/imgs/key1.jpg" alt="">
+                            <p class="ad-p-1 lh-1 color-black font-2 my-1">Corsair K55 RGB Gaming Keyboard</p>
+                            <p class="color-grey ad-p-2 lh-1 font-2">From: <span class="color-black">Amazon</span></p>
+                            <div class="d-flex justify-content-between align-items-end">
+                                <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
+                                <p class="fs-4 m-0 color-red">499$</p>
+                            </div>
+                        </div>
+                        <div class="bg-light col-6 d-md-none border border-1 d-flex flex-column justify-content-between">
+                            <img class="img-fluid mt-3" src="Assets/imgs/key2.jpg" alt="">
+                            <p class="ad-p-1 lh-1 color-black font-2 my-1">Logitech G613 LIGHTSPEED Wireless Mechanical Gaming Keyboard</p>
+                            <p class="color-grey ad-p-2 lh-1 font-2">From: <span class="color-black">Amazon</span></p>
+                            <div class="d-flex justify-content-between align-items-end">
+                                <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
+                                <p class="fs-4 m-0 color-red">499$</p>
+                            </div>
+                        </div>
+                    </div>
+                    <i class="bi bi-caret-right d-none d-md-grid fs-1 align-self-center arrow-hover"></i>
+                </div>
             </div>
         </div>
     </main>
