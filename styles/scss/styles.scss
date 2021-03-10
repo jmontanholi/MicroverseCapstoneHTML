@@ -4,9 +4,8 @@ $black: #383838;
 $font-g: 'Montserrat', sans-serif;
 $font-h: 'Roboto', sans-serif;
 
-html {
-  overflow-x: hidden;
-  max-width: 100%;
+.flex1 {
+  flex: 1;
 }
 
 .font-1 {
