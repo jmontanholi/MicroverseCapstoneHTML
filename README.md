@@ -24,7 +24,10 @@ The live demo of the website can be seen [here](https://jmontanholi.github.io/Mi
     * GitHub Account to clone the repository on your computer.
     * Code editor to see the code. (optional)
     * Browser to open the index.html file localy. 
-
+  * Steps to set it locally:
+    * Open your github desktop or your code editor terminal.
+    * Clone the repository into your local machine.
+    * Open the index.html file in any browser.
 
 ## Authors
 
@@ -33,7 +36,7 @@ The live demo of the website can be seen [here](https://jmontanholi.github.io/Mi
 - GitHub: [jmontanholi](https://github.com/jmontanholi)
 - Twitter: [MontanholiNunes](https://twitter.com/MontanholiNunes)
 - LinkedIn: [joaovitormontanholi](https://www.linkedin.com/in/joaovitormontanholi/)
-- 
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
