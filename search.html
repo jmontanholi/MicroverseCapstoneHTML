@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+
+    <title>Microverse Capstone - HTML & CSS</title>
+  </head>
+  <body class="bg-light-grey">
+    <!-- Header -->
+    <header>
+        <nav class="nav row">
+            <div class="nav-1">
+                <i class="bi bi-box-seam color-red me-1"></i>
+                <h2 class="text-light font-1 mt-2">FICTIONAL</h2>
+            </div>
+            <div class="nav-2">
+                <div>
+                    <a href="index.html" class="color-grey text-decoration-none link-hover"><i class="bi bi-house-door-fill color-grey me-1"></i>Home</a>
+                </div>
+                <div>
+                    <a href="search.html" class="color-grey text-decoration-none link-hover"><i class="bi bi-grid-fill color-grey me-1"></i>Collection</a>
+                </div>
+                <div>
+                    <a href="#" class="color-grey text-decoration-none link-hover"><i class="bi bi-cart-fill color-grey me-1"></i>Purchase List</a>
+                </div>
+            </div>
+            <div class="nav-3 d-none d-md-flex">
+                <a href="#" class="color-grey text-decoration-none badge rounded-1 nav-btn-hover">POST AN AD</a>
+            </div>
+        </nav>
+        <!-- Ipad/Desktop searchbar -->
+        <div class="row">
+            <div class="bg-red d-none d-md-flex flex-column align-items-center">
+                <div class="text-start align-self-start pt-5 search-div">
+                    <h1 class="text-light fw-bold">FICTIONAL</h1>
+                    <p class="text-light">Buying And Selling Couldn't Be Simpler Than This</p>
+                </div>
+                <div>
+                    <form action="#" class="d-flex py-5">
+                        <select class="form-select rounded-0" name="departments" id="departments">
+                            <option value="games">Games</option>
+                            <option value="consoles">Consoles</option>
+                            <option value="acessories">Acessories</option>
+                        </select>
+                        <input class="form-control rounded-0" type="text" placeholder="What do you search for?" size="45">
+                        <a href="#" class="ms-3 border-0 rounded-1 px-3 form-btn-hover text-decoration-none d-flex align-items-center">SEARCH</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="bg-light-grey">
+        <div class="row bg-light">
+            <div class="col-12 col-md-4 mb-5">
+                <h2 class="font-1 color-black check-border">Platform</h2>
+                <div class="d-flex flex-column ms-3">
+                    <div>
+                        <input class="form-check-input" type="checkbox" name="ps3" id="ps3">
+                        <label class="form-check-label font-2 color-grey form-txt" for="ps3">PS3</label>
+                    </div>
+                    <div>
+                        <input class="form-check-input" type="checkbox" name="ps4" id="ps4">
+                        <label class="form-check-label font-2 color-grey form-txt" for="ps4">PS4</label>
+                    </div>
+                    <div>
+                        <input class="form-check-input" type="checkbox" name="xbox1" id="xbox1">
+                        <label class="form-check-label font-2 color-grey form-txt" for="xbox1">Xbox One</label>
+                    </div>
+                    <div>
+                        <input class="form-check-input" type="checkbox" name="xbox2" id="xbox2">
+                        <label class="form-check-label font-2 color-grey form-txt" for="xbox2">Xbox Series S</label>
+                    </div>
+                    <div>
+                        <input class="form-check-input" type="checkbox" name="pc" id="pc">
+                        <label class="form-check-label font-2 color-grey form-txt" for="pc">PC</label>
+                    </div>
+                </div>
+                <h2 class="font-1 color-black check-border">Price Range</h2>
+                <div class="d-flex flex-column ms-3">
+                    <div>
+                        <input class="form-check-input" type="checkbox" name="cheap" id="cheap">
+                        <label class="form-check-label font-2 color-grey form-txt" for="cheap">10$ - 100$</label>
+                    </div>
+                    <div>
+                        <input class="form-check-input" type="checkbox" name="medium" id="medium">
+                        <label class="form-check-label font-2 color-grey form-txt" for="medium">100$ - 500$</label>
+                    </div>
+                    <div>
+                        <input class="form-check-input" type="checkbox" name="expensive" id="expensive">
+                        <label class="form-check-label font-2 color-grey form-txt" for="expensive">500$ - 100$</label>
+                    </div>
+                    <div>
+                        <input class="form-check-input" type="checkbox" name="larger" id="larger">
+                        <label class="form-check-label font-2 color-grey form-txt" for="larger">+1000$</label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md">
+                <div class="bg-light d-flex justify-content-center align-items-center border-bottom border-2 mb-3">
+                    <i class="bi bi-search color-black fs-2 ms-3"></i>
+                    <h3 class="fs-4 m-0 mx-2">Results</h3>
+                </div>
+                <div class="bg-light col-12 flex border-bottom border-2 py-1 my-1">
+                    <div class="results-img results-img-1 ms-2">
+                    </div>
+                    <div class="m-3 search-txt-div d-flex flex-column justify-content-between">
+                        <p class="fs-1 lh-1 color-black font-2 my-1">Among Us</p>
+                        <p class="color-grey fs-6 lh-1 font-2">From: <span class="color-black">Steam</span></p>
+                        <p class="font-1 result-txt">An online and local party game of teamwork and betrayal for 4-10 players...in space!</p>
+                        <div class="d-flex justify-content-between align-items-end">
+                        <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
+                        <p class="fs-4 m-0 color-white badge bg-red">20$</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="bg-light col-12 flex border-bottom border-2 py-1 my-1">
+                    <div class="results-img results-img-2 ms-2">
+                    </div>
+                    <div class="m-3 search-txt-div d-flex flex-column justify-content-between">
+                        <p class="fs-1 lh-1 color-black font-2 my-1">Bloons TD 6</p>
+                        <p class="color-grey fs-6 lh-1 font-2">From: <span class="color-black">Steam</span></p>
+                        <p class="font-1 result-txt">The Bloons are back and better than ever! Get ready for a massive 3D tower defense game designed to give you hours and hours of the best strategy gaming available.</p>
+                        <div class="d-flex justify-content-between align-items-end">
+                        <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
+                        <p class="fs-4 m-0 color-white badge bg-red">20$</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="bg-light col-12 flex border-bottom border-2 py-1 my-1">
+                    <div class="results-img results-img-3 ms-2">
+                    </div>
+                    <div class="m-3 search-txt-div d-flex flex-column justify-content-between">
+                        <p class="fs-1 lh-1 color-black font-2 my-1">Dying Light</p>
+                        <p class="color-grey fs-6 lh-1 font-2">From: <span class="color-black">Steam</span></p>
+                        <p class="font-1 result-txt">First-person action survival game set in a post-apocalyptic open world overrun by flesh-hungry zombies. Roam a city devastated by a mysterious virus epidemic. Scavenge for supplies, craft weapons, and face hordes of the infected.</p>
+                        <div class="d-flex justify-content-between align-items-end">
+                        <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
+                        <p class="fs-4 m-0 color-white badge bg-red">20$</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="bg-light col-12 flex border-bottom border-2 py-1 my-1">
+                    <div class="results-img results-img-4 ms-2">
+                    </div>
+                    <div class="m-3 search-txt-div d-flex flex-column justify-content-between">
+                        <p class="fs-1 lh-1 color-black font-2 my-1">Flight Simulator</p>
+                        <p class="color-grey fs-6 lh-1 font-2">From: <span class="color-black">Steam</span></p>
+                        <p class="font-1 result-txt">From light planes to wide-body jets, fly highly detailed and accurate aircraft in the next generation of Microsoft Flight Simulator. Test your piloting skills against the challenges of night flying, real-time atmospheric simulation and live weather in a dynamic and living world.</p>
+                        <div class="d-flex justify-content-between align-items-end">
+                        <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
+                        <p class="fs-4 m-0 color-white badge bg-red">20$</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="bg-light col-12 flex border-bottom border-2 py-1 my-1">
+                    <div class="results-img results-img-5 ms-2">
+                    </div>
+                    <div class="m-3 search-txt-div d-flex flex-column justify-content-between">
+                        <p class="fs-1 lh-1 color-black font-2 my-1">GTA V</p>
+                        <p class="color-grey fs-6 lh-1 font-2">From: <span class="color-black">Steam</span></p>
+                        <p class="font-1 result-txt">Grand Theft Auto V for PC offers players the option to explore the award-winning world of Los Santos and Blaine County in resolutions of up to 4k and beyond, as well as the chance to experience the game running at 60 frames per second.</p>
+                        <div class="d-flex justify-content-between align-items-end">
+                        <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
+                        <p class="fs-4 m-0 color-white badge bg-red">20$</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="bg-light col-12 flex border-bottom border-2 py-1 my-1">
+                    <div class="results-img results-img-6 ms-2">
+                    </div>
+                    <div class="m-3 search-txt-div d-flex flex-column justify-content-between">
+                        <p class="fs-1 lh-1 color-black font-2 my-1">Hades</p>
+                        <p class="color-grey fs-6 lh-1 font-2">From: <span class="color-black">Steam</span></p>
+                        <p class="font-1 result-txt">Defy the god of the dead as you hack and slash out of the Underworld in this rogue-like dungeon crawler from the creators of Bastion, Transistor, and Pyre.</p>
+                        <div class="d-flex justify-content-between align-items-end">
+                        <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
+                        <p class="fs-4 m-0 color-white badge bg-red">20$</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="bg-light col-12 flex border-bottom border-2 py-1 my-1">
+                    <div class="results-img results-img-7 ms-2">
+                    </div>
+                    <div class="m-3 search-txt-div d-flex flex-column justify-content-between">
+                        <p class="fs-1 lh-1 color-black font-2 my-1">LoopHero</p>
+                        <p class="color-grey fs-6 lh-1 font-2">From: <span class="color-black">Steam</span></p>
+                        <p class="font-1 result-txt">The Lich has thrown the world into a timeless loop and plunged its inhabitants into never ending chaos. Wield an expanding deck of mystical cards to place enemies, buildings, and terrain along each unique expedition loop for the brave hero.</p>
+                        <div class="d-flex justify-content-between align-items-end">
+                        <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
+                        <p class="fs-4 m-0 color-white badge bg-red">20$</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="bg-light col-12 flex border-bottom border-2 py-1 my-1">
+                    <div class="results-img results-img-8 ms-2">
+                    </div>
+                    <div class="m-3 search-txt-div d-flex flex-column justify-content-between">
+                        <p class="fs-1 lh-1 color-black font-2 my-1">Monster Hunter World</p>
+                        <p class="color-grey fs-6 lh-1 font-2">From: <span class="color-black">Steam</span></p>
+                        <p class="font-1 result-txt">Welcome to a new world! In Monster Hunter: World, the latest installment in the series, you can enjoy the ultimate hunting experience, using everything at your disposal to hunt monsters in a new world teeming with surprises and excitement.</p>
+                        <div class="d-flex justify-content-between align-items-end">
+                        <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
+                        <p class="fs-4 m-0 color-white badge bg-red">20$</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="bg-light col-12 flex border-bottom border-2 py-1 my-1">
+                    <div class="results-img results-img-9 ms-2">
+                    </div>
+                    <div class="m-3 search-txt-div d-flex flex-column justify-content-between">
+                        <p class="fs-1 lh-1 color-black font-2 my-1">Stardew Valley</p>
+                        <p class="color-grey fs-6 lh-1 font-2">From: <span class="color-black">Steam</span></p>
+                        <p class="font-1 result-txt">You've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home?</p>
+                        <div class="d-flex justify-content-between align-items-end">
+                        <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
+                        <p class="fs-4 m-0 color-white badge bg-red">20$</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="bg-light col-12 flex border-bottom border-2 py-1 my-1">
+                    <div class="results-img results-img-0 ms-2">
+                    </div>
+                    <div class="m-3 search-txt-div d-flex flex-column justify-content-between">
+                        <p class="fs-1 lh-1 color-black font-2 my-1">Terraria</p>
+                        <p class="color-grey fs-6 lh-1 font-2">From: <span class="color-black">Steam</span></p>
+                        <p class="font-1 result-txt">Dig, fight, explore, build! Nothing is impossible in this action-packed adventure game. Four Pack also available!</p>
+                        <div class="d-flex justify-content-between align-items-end">
+                        <i class="bi bi-plus-square color-grey fs-4 plus-hover"></i>
+                        <p class="fs-4 m-0 color-white badge bg-red">20$</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer class="bg-light row">
+        <nav class="row">
+            <div class="d-none d-md-grid col-md ms-2">
+                <h3 class="color-red footer-title">Categories</h3>
+                <div class="row">
+                    <div class="d-flex flex-column col">
+                        <a class="color-grey text-decoration-none link-hover" href="#">Games</a>
+                        <a class="color-grey text-decoration-none link-hover" href="#">Consoles</a>
+                        <a class="color-grey text-decoration-none link-hover" href="#">Acessories</a>
+                        <a class="color-grey text-decoration-none link-hover" href="#">Games</a>
+                        <a class="color-grey text-decoration-none link-hover" href="#">Consoles</a>
+                    </div>
+                </div>
+            </div>
+            <div class="d-none d-md-grid col-md ms-2">
+                <h3 class="color-red footer-title">Navigation</h3>
+                <div class="row">
+                    <div class="d-flex flex-column col">
+                        <a class="color-grey text-decoration-none link-hover" href="#">Home</a>
+                        <a class="color-grey text-decoration-none link-hover" href="#">Sign in</a>
+                        <a class="color-grey text-decoration-none link-hover" href="#">Sign Up</a>
+                        <a class="color-grey text-decoration-none link-hover" href="#">Terms & Conditions</a>
+                        <a class="color-grey text-decoration-none link-hover" href="#">FAQ</a>
+                    </div>
+                </div>
+            </div>
+            <div class="d-none d-md-grid col-md-5 col-lg-3 ms-2">
+                <div class="row">
+                    <div class="d-flex flex-column col align-items-center ">
+                        <div class="row col-4">
+                            <label class="color-red fw-bold" for="country">COUNTRY</label>
+                            <select class="form-select" name="country" id="country" size="1">
+                                <option value="canada">Canada</option>
+                                <option value="eua">United States</option>
+                            </select>
+                        </div>
+                        <div class="row col-4">
+                            <label class="color-red fw-bold" for="language">LANGUAGE</label>
+                            <select class="form-select" name="language" id="language" size="1">
+                                <option value="english">English</option>
+                                <option value="french">French</option>
+                            </select>
+                        </div>
+                        <div class="row col-4">
+                            <label class="color-red fw-bold" for="currency">CURRENCY</label>
+                            <select class="form-select" name="currency" id="currency" size="1">
+                                <option value="dolar">Dolar</option>
+                                <option value="euro">Euro</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="d-flex align-items-end justify-content-center">
+            <i class="bi bi-box-seam color-grey fs-1"></i>
+            <h2 class="color-grey fs-4 font-1">FICTIONAL</h2>
+        </div>
+        <div class="d-flex footer-2">
+            <div class="d-md-flex mt-2 ms-2">
+                <p class="color-grey text-center">
+                    Copyright © Fictional.com.
+                </p>
+                <p class="color-grey text-center mx-1">
+                    All Rights Reserved.
+                </p>
+                <p class="color-grey text-center">
+                    Designed by <a class="text-decoration-none link-hover color-black" href="https://github.com/jmontanholi">João Vítor Montanholi</a> 
+                </p>
+            </div>
+            <div class="d-none d-md-flex fs-4">
+                <a class="color-grey" href="#"><i class="bi bi-facebook m-1 link-hover"></i></a>
+                <a class="color-grey" href="#"><i class="bi bi-twitter m-1 link-hover"></i></a>
+                <a class="color-grey" href="#"><i class="bi bi-twitch m-1 link-hover"></i></a>
+                <a class="color-grey" href="#"><i class="bi bi-camera-fill m-1 link-hover"></i></a>
+                <a class="color-grey" href="#"><i class="bi bi-linkedin m-1 me-3 link-hover"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -2,9 +2,9 @@
 
 # Microverse Capstone HTML & CSS 
 
-> This Project is a simulation of a real job project based on a website for selling products.
+> Capstone Project For Microverse - The goal of this project is to learn how to do a website from scratch following the designs wanted by the "client" and show my knowledge of HTML & CSS.
 
-![screenshot](./app_screenshot.png)
+![screenshot](Assets/imgs/print.png)
 
 ## Built With
 
@@ -16,15 +16,18 @@
 
 ## Live Demo
 
-The live demo of the website can be seen [here](https://livedemo.com)
+The live demo of the website can be seen [here](https://jmontanholi.github.io/MicroverseCapstoneHTML/)
 
 
 * ## Getting Started
-  * To see this project in your own computer you are going to need:
+  * To see this project on your own computer you are going to need:
     * GitHub Account to clone the repository on your computer.
     * Code editor to see the code. (optional)
-    * Browser to open the index.html file localy. 
-
+    * Browser to open the index.html file locally. 
+  * Steps to set it locally:
+    * Open your GitHub desktop or your code editor terminal.
+    * Clone the repository into your local machine.
+    * Open the index.html file in any browser.
 
 ## Authors
 
